@@ -14,7 +14,7 @@
 ``` python
 import cv2 as cv
 import sys
-```python
+
 img = cv.imread(cv.samples.findFile("starry_night.jpg"))
 
 if img is None:
