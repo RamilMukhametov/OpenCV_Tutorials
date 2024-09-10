@@ -11,7 +11,7 @@
 Отобразить изображение в окне OpenCV (используя **cv::imshow** )\
 Записать изображение в файл          (используя **cv::imwrite** )
 
-```
+``` python
 import cv2 as cv
 import sys
  
