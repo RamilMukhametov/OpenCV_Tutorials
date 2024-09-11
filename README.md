@@ -60,9 +60,10 @@ if img is None:
 cv.imshow ( "Окно отображения" , img)
 k = cv.waitKey (0)
 В конце концов, изображение записывается в файл, если нажата клавиша "s". Для этого вызывается функция cv::imwrite , которая имеет путь к файлу и объект cv::Mat в качестве аргумента.
-
-если k == ord( "s" ):
-    cv.imwrite ( "starry_night.png" , img)
+'''
+if k == ord("s"):
+    cv.imwrite("starry_night.png", img)
+'''
 
 ## 1.2 Начало работы с видео
 
