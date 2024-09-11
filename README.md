@@ -42,6 +42,7 @@ IMREAD_GRAYSCALE загружает изображение как интенси
 После считывания данные изображения будут сохранены в объекте cv::Mat .
 
 ```python
+
 img = cv.imread ( cv.samples.findFile ( "starry_night.jpg" ))
 ```
 **Примечание:**\
