@@ -40,6 +40,7 @@ IMREAD_COLOR загружает изображение в формате BGR 8-b
 IMREAD_UNCHANGED загружает изображение как есть (включая альфа-канал, если он есть)\
 IMREAD_GRAYSCALE загружает изображение как интенсивное\
 После считывания данные изображения будут сохранены в объекте cv::Mat .
+
 ```python
 img = cv.imread ( cv.samples.findFile ( "starry_night.jpg" ))
 ```
